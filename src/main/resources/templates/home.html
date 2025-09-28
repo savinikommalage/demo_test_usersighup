@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Dashboard</title>
+</head>
+<body>
+<h2>Dashboard</h2>
+<!-- This line will show the "Welcome username!" message -->
+<p th:text="${message}">Welcome!</p>
+
+<hr>
+<p>You are now logged in successfully.</p>
+
+<a href="/logout">Logout</a>
+</body>
+</html>
