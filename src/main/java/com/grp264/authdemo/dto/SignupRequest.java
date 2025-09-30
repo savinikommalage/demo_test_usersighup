@@ -22,3 +22,11 @@ public class SignupRequest {
     public String getPassword() { return password; }
     public void setPassword(String password) { this.password = password; }
 }
+
+//POST → http://localhost:8080/api/auth/signup
+//{
+//        "username": "senpai",
+//        "email": "senpai@example.com",
+//        "password": "mypassword123"
+//        }   -> send this as a request json body pookie
+

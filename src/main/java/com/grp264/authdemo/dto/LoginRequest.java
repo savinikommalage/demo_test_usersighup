@@ -17,3 +17,11 @@ public class LoginRequest {
     public String getPassword() { return password; }
     public void setPassword(String password) { this.password = password; }
 }
+
+//POST → http://localhost:8080/api/auth/login
+//
+//        {
+//        "username": "senpai",
+//        "password": "mypassword123"
+//        } --> test seperately
+
